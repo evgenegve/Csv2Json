@@ -10,3 +10,15 @@
 /Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/obj/Debug/net6.0/refint/Csv2Json.Services.dll
 /Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.pdb
 /Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/obj/Debug/net6.0/ref/Csv2Json.Services.dll
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/bin/Debug/net6.0/Csv2Json.Services.deps.json
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/bin/Debug/net6.0/Csv2Json.Services.dll
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/bin/Debug/net6.0/Csv2Json.Services.pdb
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.csproj.AssemblyReference.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.AssemblyInfoInputs.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.AssemblyInfo.cs
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.csproj.CoreCompileInputs.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.dll
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/refint/Csv2Json.Services.dll
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/Csv2Json.Services.pdb
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/Debug/net6.0/ref/Csv2Json.Services.dll
