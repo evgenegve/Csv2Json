@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.App/Csv2Json.App.csproj",
+      "projectUniqueName": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.App/Csv2Json.App.csproj",
       "projectName": "Csv2Json.App",
-      "projectPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.App/Csv2Json.App.csproj",
+      "projectPath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.App/Csv2Json.App.csproj",
       "packagesPath": "/Users/evgenymironov/.nuget/packages/",
-      "outputPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.App/obj/",
+      "outputPath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/evgenymironov/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj": {
-              "projectPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj"
+            "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/Csv2Json.Services.csproj": {
+              "projectPath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/Csv2Json.Services.csproj"
             }
           }
         }

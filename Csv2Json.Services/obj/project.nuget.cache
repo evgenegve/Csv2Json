@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZsjnDL6Kh5oywyvy+ttAgmGRSGaeqk2YeLYl6KPAuvKDzqUXXnt5zFwymTsoyUdmgQAC7+fbuRR6oZctnBTd4A==",
+  "dgSpecHash": "ms1RKW570RtoWDqw6Jx6KCWJQxeckLsm7GuEk+IazMxTvWHrCdKLFYeiu6qhvVJZY6URNBk8dRdbCcn2GcJR7w==",
   "success": true,
-  "projectFilePath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj",
+  "projectFilePath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/Csv2Json.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

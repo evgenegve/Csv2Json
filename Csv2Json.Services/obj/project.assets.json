@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj",
+      "projectUniqueName": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/Csv2Json.Services.csproj",
       "projectName": "Csv2Json.Services",
-      "projectPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj",
+      "projectPath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/Csv2Json.Services.csproj",
       "packagesPath": "/Users/evgenymironov/.nuget/packages/",
-      "outputPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/obj/",
+      "outputPath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/evgenymironov/.nuget/NuGet/NuGet.Config"
