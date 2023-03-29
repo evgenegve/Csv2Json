@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Csv2Json.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Csv2Json.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Csv2Json.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Csv2Json.Services/1.0.0": {
+      "type": "project",
+      "path": "../Csv2Json.Services/Csv2Json.Services.csproj",
+      "msbuildProject": "../Csv2Json.Services/Csv2Json.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Csv2Json.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/evgenymironov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.App/Csv2Json.App.csproj",
+      "projectName": "Csv2Json.App",
+      "projectPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.App/Csv2Json.App.csproj",
+      "packagesPath": "/Users/evgenymironov/.nuget/packages/",
+      "outputPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.App/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/evgenymironov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj": {
+              "projectPath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Services/Csv2Json.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
