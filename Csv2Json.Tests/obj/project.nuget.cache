@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VzgclysGolVjyS/Q56c2Y8LJn3rMi4pNSR/9xeTbIn9YfrpvDhjT7YBf1oui1FieiCxuOlLmI1bHwoIW0hpQtA==",
+  "dgSpecHash": "ccIR+cwrDCab0lDKi5oX1M0JssiZrAYMZtyceFvLJji/Q0kRJ+O8Qbimqxqq6sRTVXflS7nsnx5CKK2FTJOAAQ==",
   "success": true,
-  "projectFilePath": "/Users/evgenymironov/dev/Pet.projects/Cvs2Json/Csv2Json.Tests/Csv2Json.Tests.csproj",
+  "projectFilePath": "/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.Tests/Csv2Json.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/evgenymironov/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/evgenymironov/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

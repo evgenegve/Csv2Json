@@ -7,11 +7,22 @@ public class Csv2JsonTransform : ICsv2JsonTransform
     {
         if (String.IsNullOrEmpty(csv))
             return false;
+        
+        var strings = csv.Split("/n");
+        int num = strings[0].Split(',').Length;
+        
+        for (int i = 1; i < strings.Length; i++)
+            if (strings[i].Split(',').Length != num)
+                return false;
+            
         return true;
     }
 
     public string Transform(string csv)
     {
+        if (!ValidateCsv(csv))
+            return "Некорректный формат";
+        
         var strings = csv.Split("/n");
         string[] fields = strings[0].Split(',');
         string[] data = new string[strings.Length - 1];
