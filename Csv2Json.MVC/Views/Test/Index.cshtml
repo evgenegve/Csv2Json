@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Transform Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Transform csv</a>.</p>
+
+
+    <table>
+        <tr>
+            <td>
+                <p>Введите csv </p>
+                <textarea rows="10" cols="45" name="csv" id="inputcsv"></textarea>
+                <input type="submit" value="Отправить" onclick="JsonClick1()"/>
+            </td>
+
+            <td>
+                <textarea rows="10" cols="45" id="result"></textarea>
+            </td>
+
+        </tr>
+    </table>
+
+</div>
+
+
+<script>
+    function JsonClick()
+    {
+        $.ajax({
+            url:"Test/Transform",
+            method: "POST",
+            success: function (product) {
+                $('#result').val(product);
+            }
+        })
+    };
+
+    function JsonClick1()
+    {
+        $.ajax({
+            url:"Test/Transform1",
+            method: "POST",
+            data: {'csv': $('#inputcsv').val()},
+            success: function (product) {
+                $('#result').val(product);
+            }
+        })
+    };
+</script>
