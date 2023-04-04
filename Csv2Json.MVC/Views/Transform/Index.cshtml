@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Transform Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Transform csv</p>
+    <textarea class="form-control" rows="10" cols="45" name="csv" id="inputcsv"></textarea>
+    <input type="submit" value="Отправить" class="btn btn-primary" onclick="JsonClick()" />
+    <textarea class="form-control" rows="10" cols="45" id="result"></textarea>
+</div>
+<script>
+    function JsonClick() {
+        $.ajax({
+            url: "Transform/Transform",
+            method: "Post",
+            data: { 'csv': $('#inputcsv').val() },
+            success: function (product) {
+                $('#result').val(product);
+            }
+        })
+    };
+</script>
