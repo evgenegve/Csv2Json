@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Transform Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <table>
+        <tr>
+            <td><textarea class="form-control" rows="10" cols="30" name="csv" id="inputcsv"></textarea></td>
+            <td><input type="submit" value="Transform" class="btn btn-primary" onclick="JsonTextTransformClick()" />
+            </td>
+            <td><textarea class="form-control" rows="10" cols="30" id="resultText"></textarea></td>
+        </tr>
+    </table>
+</div>
+<br />
+<br />
+
+<form id="form1" method="post" enctype="multipart/form-data">
+    <input name="fileCsv" id="f1" type="file" />
+    <input type="submit" id="btnCsv" value="Отправить" onclick="FileMethod()" />
+</form>
+
+<script>
+    document.getElementById("form1").addEventListener("submit", function(event)
+    {  
+        event.preventDefault();
+    });
+
+
+    function FileMethod() {
+        var formData = new FormData(document.getElementById("form1"));
+        
+        $.ajax({
+            url: "/Transform/FileTransform",
+            method: "Post",
+            cache: false,
+            contentType: false,
+            data: formData,
+            processData: false,
+            success: function (product) {
+                $('#resultText').val(product);
+            }
+        })
+    };
+</script>
+
+<script>
+    function JsonTextTransformClick() {
+        $.ajax({
+            url: "Transform/Transform",
+            method: "Post",
+            data: { 'csv': $('#inputcsv').val() },
+            success: function (product) {
+                $('#resultText').val(product);
+            }
+        })
+    };
+</script>
+
+
