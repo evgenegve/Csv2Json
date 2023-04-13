@@ -38,18 +38,12 @@ public class TransformController : Controller
     }
 
     [HttpPost]
-    public JsonResult AjaxTransform(IFormFile fileCsv)
+    public JsonResult FileTransform(IFormFile fileCsv)
     {
         using (var reader = new StreamReader(fileCsv.OpenReadStream()))
         {
             var csv = reader.ReadToEnd();
             return Json(_csv2JsonTransform.Transform(csv));
         }
-    }
-
-    [HttpPost]
-    public JsonResult SimpleTextMethod(string strValue1, string strValue2)
-    {
-        return Json($"i1:{strValue1}, s1:{strValue2}");
     }
 }

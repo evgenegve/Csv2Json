@@ -17,55 +17,22 @@
 <br />
 
 <form id="form1" method="post" enctype="multipart/form-data">
-     <input name="strValue11" id="i11" type="text" />
     <input name="fileCsv" id="f1" type="file" />
     <input type="submit" id="btnCsv" value="Отправить" onclick="FileMethod()" />
 </form>
 
-<form id="form2" method="post" enctype="multipart/form-data">
-    <input name="strValue1" id="i1" type="text" />
-    <input name="strValue2" id="s1" type="text" />
-    <input type="submit" id="btnForm" value="Отправить" onclick="SimpleMethod()" />
-</form>
-
 <script>
-    document.getElementById("form2").addEventListener("submit", function(event)
-    {  
-        alert('event');
-        event.preventDefault();
-    }); 
-
     document.getElementById("form1").addEventListener("submit", function(event)
     {  
-        alert('event');
         event.preventDefault();
     });
 
 
-    function SimpleMethod() {
-        alert('simple1');
-        var formData = new FormData(document.getElementById("form2"));
-        alert($("#form2").serialize());
-        
-        $.ajax({
-            url: "/Transform/SimpleTextMethod",
-            method: "Post",
-            cache: false,
-            contentType: false,
-            data: formData,
-            processData: false,
-            success: function (product) {
-                $('#resultText').val(product);
-            }
-        })
-    };
-
     function FileMethod() {
         var formData = new FormData(document.getElementById("form1"));
-        alert($("#form1").serialize());
         
         $.ajax({
-            url: "/Transform/AjaxTransform",
+            url: "/Transform/FileTransform",
             method: "Post",
             cache: false,
             contentType: false,
@@ -75,22 +42,6 @@
                 $('#resultText').val(product);
             }
         })
-    };
-</script>
-
-
-<script>
-    function Test() {
-        alert('ajax');
-        $.ajax({
-            url: "/Transform/AjaxTransform",
-            method: "Post",
-            data: new FormData(),
-            success: function (product) {
-                $('#resultText').val(product);
-            }
-        })
-        alert('end');
     };
 </script>
 
