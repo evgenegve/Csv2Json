@@ -1,3 +1,11 @@
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.csproj.AssemblyReference.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.AssemblyInfoInputs.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.AssemblyInfo.cs
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.csproj.CoreCompileInputs.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.MvcApplicationPartsAssemblyInfo.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.RazorAssemblyInfo.cache
+/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.RazorAssemblyInfo.cs
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/bin/Debug/net6.0/appsettings.Development.json
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/bin/Debug/net6.0/appsettings.json
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/bin/Debug/net6.0/Csv2Json.MVC.staticwebassets.runtime.json
@@ -8,14 +16,6 @@
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/bin/Debug/net6.0/Csv2Json.MVC.pdb
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/bin/Debug/net6.0/Csv2Json.Services.dll
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/bin/Debug/net6.0/Csv2Json.Services.pdb
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.csproj.AssemblyReference.cache
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.GeneratedMSBuildEditorConfig.editorconfig
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.AssemblyInfoInputs.cache
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.AssemblyInfo.cs
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.csproj.CoreCompileInputs.cache
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.MvcApplicationPartsAssemblyInfo.cache
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.RazorAssemblyInfo.cache
-/Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/Csv2Json.MVC.RazorAssemblyInfo.cs
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/staticwebassets.build.json
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/staticwebassets.development.json
 /Users/evgenymironov/dev/Pet.projects/Csv2Json/Csv2Json.MVC/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css

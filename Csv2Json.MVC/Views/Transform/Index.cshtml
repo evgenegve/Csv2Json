@@ -4,19 +4,107 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <textarea class="form-control" rows="10" cols="30" name="csv" id="inputcsv"></textarea>
-    <input type="submit" value="Transform" class="btn btn-primary" onclick="JsonClick()" />
-    <textarea class="form-control" rows="10" cols="30" id="result"></textarea>
+    <table>
+        <tr>
+            <td><textarea class="form-control" rows="10" cols="30" name="csv" id="inputcsv"></textarea></td>
+            <td><input type="submit" value="Transform" class="btn btn-primary" onclick="JsonTextTransformClick()" />
+            </td>
+            <td><textarea class="form-control" rows="10" cols="30" id="resultText"></textarea></td>
+        </tr>
+    </table>
 </div>
+<br />
+<br />
+
+<form id="form1" method="post" enctype="multipart/form-data">
+     <input name="strValue11" id="i11" type="text" />
+    <input name="fileCsv" id="f1" type="file" />
+    <input type="submit" id="btnCsv" value="Отправить" onclick="FileMethod()" />
+</form>
+
+<form id="form2" method="post" enctype="multipart/form-data">
+    <input name="strValue1" id="i1" type="text" />
+    <input name="strValue2" id="s1" type="text" />
+    <input type="submit" id="btnForm" value="Отправить" onclick="SimpleMethod()" />
+</form>
+
 <script>
-    function JsonClick() {
+    document.getElementById("form2").addEventListener("submit", function(event)
+    {  
+        alert('event');
+        event.preventDefault();
+    }); 
+
+    document.getElementById("form1").addEventListener("submit", function(event)
+    {  
+        alert('event');
+        event.preventDefault();
+    });
+
+
+    function SimpleMethod() {
+        alert('simple1');
+        var formData = new FormData(document.getElementById("form2"));
+        alert($("#form2").serialize());
+        
+        $.ajax({
+            url: "/Transform/SimpleTextMethod",
+            method: "Post",
+            cache: false,
+            contentType: false,
+            data: formData,
+            processData: false,
+            success: function (product) {
+                $('#resultText').val(product);
+            }
+        })
+    };
+
+    function FileMethod() {
+        var formData = new FormData(document.getElementById("form1"));
+        alert($("#form1").serialize());
+        
+        $.ajax({
+            url: "/Transform/AjaxTransform",
+            method: "Post",
+            cache: false,
+            contentType: false,
+            data: formData,
+            processData: false,
+            success: function (product) {
+                $('#resultText').val(product);
+            }
+        })
+    };
+</script>
+
+
+<script>
+    function Test() {
+        alert('ajax');
+        $.ajax({
+            url: "/Transform/AjaxTransform",
+            method: "Post",
+            data: new FormData(),
+            success: function (product) {
+                $('#resultText').val(product);
+            }
+        })
+        alert('end');
+    };
+</script>
+
+<script>
+    function JsonTextTransformClick() {
         $.ajax({
             url: "Transform/Transform",
             method: "Post",
             data: { 'csv': $('#inputcsv').val() },
             success: function (product) {
-                $('#result').val(product);
+                $('#resultText').val(product);
             }
         })
     };
 </script>
+
+
