@@ -23,7 +23,7 @@ public class Csv2JsonTransformTests
     [Fact]
     public void ValidateCsv_InputBadCsv1_ReturnFalse()
     {
-        string input = "id,name/n1,12,Andrey";
+        string input = "id,name\n1,12,Andrey";
         bool result = csv2JsonTransform.ValidateCsv(input);
 
         Assert.False(result);
@@ -32,7 +32,7 @@ public class Csv2JsonTransformTests
     [Fact]
     public void ValidateCsv_InputBadCsv2_ReturnFalse()
     {
-        string input = "id,Name,Age/n1,Evgeny,36/n2,Andrey";
+        string input = "id,Name,Age\n1,Evgeny,36\n2,Andrey";
         bool result = csv2JsonTransform.ValidateCsv(input);
 
         Assert.False(result);

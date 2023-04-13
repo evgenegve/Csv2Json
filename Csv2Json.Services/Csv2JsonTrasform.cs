@@ -23,7 +23,7 @@ public class Csv2JsonTransform : ICsv2JsonTransform
         if (!ValidateCsv(csv))
             throw new FormatException("Некорректный формат CSV");
         
-        var strings = csv.Split("/n");
+        var strings = csv.Split("\n");
         string[] fields = strings[0].Split(',');
         string[] data = new string[strings.Length - 1];
 
